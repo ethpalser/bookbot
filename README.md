@@ -1,2 +1,2 @@
-# bookbot
-Book bot program built in Python 3. Guided project from boot.dev.
+# Book Bot
+Book Bot is my first Python project! This is built using Python 3.
