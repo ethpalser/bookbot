@@ -34,6 +34,7 @@ def character_report(char_dict):
     list = convert_flat_dictonary_to_list(char_dict)
     list.sort(reverse=True, key=sort_on)
     for item in list:
-        print(f"The '{item["char"]}' character was found {item["count"]} times.")
+        if item["char"].isalpha():
+            print(f"The '{item["char"]}' character was found {item["count"]} times.")
 
 main()
